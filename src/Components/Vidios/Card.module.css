@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: column;    
+    height: auto;    
+    color: white;
+}
+
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card .channelImg {
+    border-radius: 50%;
+    height: 200px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text {
+    padding: 0 10px;
+    width: auto;
+}
+
+.card-text a {
+    padding-top: 10px;
+    color: grey;
+    cursor: pointer;
+}
+.card-text a svg {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.card .channelLink {
+    color: white;
+    height: 40px;
+}

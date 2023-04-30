@@ -1,0 +1,26 @@
+.videos {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(340px , 1fr));
+    color: white;
+    padding: 60px ;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media(max-width: 1420px) {
+    .videos {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    }
+}
+
+@media(max-width: 992px) {
+    .videos {
+        grid-template-columns: repeat(auto-fill, minmax(198px, 1fr));
+
+    }
+}

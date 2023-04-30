@@ -1,0 +1,23 @@
+.comments ul li img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.comments {
+    color: white;
+}
+
+.comments ul li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.AllComments {
+    padding: 0;
+    margin: 0;
+}
+
+.comments ul li p {
+    font-size: 17px;
+    margin-top: 10px;
+}

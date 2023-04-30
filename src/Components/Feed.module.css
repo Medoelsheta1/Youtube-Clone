@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    position: relative;
+}
+.content h1 {
+    color: white;
+
+    font-size: 20px;
+    position: absolute;
+    left: 280px;
+}
+@media(max-width: 767px) {
+    .content h1 {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 85px;
+
+    }
+    .content {
+        flex-direction: column;
+    }
+}
+.content h1 span {
+    color: #FC1503;
+}

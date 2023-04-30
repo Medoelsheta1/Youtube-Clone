@@ -1,0 +1,115 @@
+.sidePar > ul {
+    color: white;
+    border-right: 1px solid #e3e3e3;
+    min-height: 90vh;
+    overflow: auto;
+}
+.sidePar ul {
+    padding: 0 15px;
+}
+
+.sidePar ul svg {
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.sidePar ul li:hover svg {
+    color: white;
+}
+.sidePar ul li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s;
+    
+    
+}
+
+@media(max-width: 767px) {
+    .sidePar ul li {
+        margin-right: 10px;
+    }   
+    .subscriptionLinks li {
+        width: max-content;
+    }
+}
+.sidePar ul li:hover,
+.sidePar ul li.active {
+    background-color: red;
+}
+@media (min-width: 767px) {
+    .sidePar ul > span {
+        padding: 0 10px;
+        width: 195px;
+        height: 2px;
+        background-color: #e3e3e3;
+        display: inline-block;
+    }    
+}
+
+
+.sidePar ul h6 {
+    color: grey;
+    padding: 0 0 0 20px;
+}
+
+@media (max-width: 767px) {
+    .sidePar > ul {
+    display: flex;
+    width: auto;
+    overflow: scroll;
+    overflow-y: hidden;
+    min-height: 50px;
+    height: 70px;
+
+
+    }
+    .sidePar > ul ul {
+        display: flex;
+    }
+}
+@media (max-width: 545px) {
+    .sidePar>ul {
+        width: auto;
+    }
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 20px; */
+    margin-bottom: 0;
+}
+
+.sidePar ul li a {
+    color: white;
+}
+.exit {
+    margin-left: auto;
+    font-size: 17px;
+    font-weight: bold;
+    z-index: 100;
+    background-color: white;
+    color: black;
+    padding: 0.5px 5px 3px 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 4.5px;
+}
+
+@media (max-width: 767px) {
+    .exit {
+        top: 2px;
+        right: 0px;
+    }
+    .channels {
+        margin-bottom: 10px;
+    }
+    
+}

@@ -1,0 +1,137 @@
+.VidioContent {
+    min-height: 93.8vh;
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1200px) {
+    .VidioContent {
+        flex-direction: column;
+    }
+}
+.Content {
+    padding: 20px;
+}
+.vidio {
+    width: 100%;
+    height: 700px;
+}
+@media (max-width: 1200px) {
+    .vidio {
+        width: 100%;
+        height: 700px;
+    }
+}
+@media (max-width: 767px) {
+    .vidio {
+        width: 100%;
+        height: 500px;
+    }
+}
+@media (max-width: 545px) {
+    .vidio {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.vidio-details > div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.vidio-details h2 {
+    font-size: 18px;
+    color: white;
+}
+.vidio-details p {
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    width: fit-content;
+}
+.vidio-details svg {
+    color: grey;
+    font-size: 14px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.statics {
+    font-size: 13.5px;
+    color: grey;
+    margin-top: -18px;
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+.statics span {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    /* margin: 0; */
+}
+.vidioPlayer {
+    width: 100%;
+    height: 100%;
+}
+
+
+.button {
+    padding: 6.5px 13px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    /* margin-top: -40px; */
+}
+
+@media (max-width: 545px) {
+    .button {
+        padding: 4px 8px;
+        font-weight: normal;
+        /* margin-bottom: 30px; */
+    }
+}
+.button:disabled {
+    cursor: not-allowed;
+    background-color: grey;
+}
+
+.description {
+    color: white;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    padding: 5px 8px;
+    padding-top: 0;
+    margin-top: 10px;
+    background-color: rgb(51 51 51);
+}
+.description p {
+    height: 26px;
+    transition: 0.5s;
+}
+
+.description button {
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    background-color: #ffffff1f;
+    color: #00000082;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.description .more {
+    height: auto;
+}
